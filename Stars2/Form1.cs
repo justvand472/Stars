@@ -14,7 +14,7 @@ namespace Stars2
 {
     public partial class Form1 : Form
     {
-        public static Random randNum = new Random();
+        
 
         public Form1()
         {
@@ -25,6 +25,7 @@ namespace Stars2
         {
             Graphics gpix = this.CreateGraphics();
             SolidBrush brush = new SolidBrush(Color.White);
+            Random randNum = new Random();
             for (int i = 0; i <= stars; i++)
             {                
                 int x, y, w, r, g, b;
