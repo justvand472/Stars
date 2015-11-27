@@ -1,4 +1,6 @@
-﻿using System;
+﻿///StarField program 
+///By Justin Vandersar
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
